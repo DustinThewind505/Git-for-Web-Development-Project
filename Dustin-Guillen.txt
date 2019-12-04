@@ -1,0 +1,138 @@
+https://codepen.io/D_thewind/pen/GRggEze?editors=1100
+
+
+    1. What is Semantic HTML? 
+	Semantic HTML gives our tags meaning.
+
+    2. What is HTML used for? 
+	HTML is the building block/skeleton/foundation for all web pages.
+
+    3. What is an attribute and where do we put it? 
+	An attribute is found in the open tag for an HTML tag.
+	An attribute is a modifier is used for changing the default behavior of HTML tags. Some tags require them to work.
+	
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	An h1 tag is used to identify the main header on a page.
+	An h1 tag should only be used once per page.	
+
+    5. Name two tags that have required attributes
+	The <link>, <a> and <img> tags all require attributes.
+
+    6. What do we put in the head of our HTML document? 
+	The <title>, <link>, <meta>, <style>, <base>, <script> and <noscript> can all go in the head. <title> is the only required element.
+
+    7. What is an id? 
+	An id is and attribute. is is mostly used for styling a specific element. No elements should have the same id.
+
+    8. What elements can I add an id to? 
+	In HTML5 you may ad an id to any element, but it is not useful for all elements.
+
+    9. How many times can I use the same id on a page? 
+	You may only use the same id ONCE per page.
+
+    10. What is a class?
+	 A class is an attribute.It is used to style multiple elements with the same class.
+ 
+    11. What elements can I add a class to? 
+	In HTML5 you may add the class attribute to any element, but it is not useful for all elements.
+
+    12. How many times can I use the same class on a page?
+	 You may use the class attribute for multiple elements on a page. You may use the class elements for as many times as neccesary.
+ 
+    13. How do I get my link to open in a new tab?
+	 Open a link in a new tab by using the target attribute. Use the target atrribute with _blank. target="_blank"
+
+    14. What is the alt attribute used for?
+	 The alt attribute shows text to describe an element that cannot be rendered. The alt attribute is used for screen readers.
+ 
+    15. How do I reference an id?
+	 To reference an id use the # tag before it. #id
+	
+    16. What is the difference between a section and a div?
+	 A <section> is semantic and more specific and easier understood by screen readers, while the <div> is more general.
+
+    17. What is CSS used for? 
+	 Cascading Style Sheets are used to style HTML.
+
+    18. How do we select an element? Example - every h2 on the page
+	 You can select an element is CSS by writing its tag, writing its class with a dot before it, or writing it's id with a hash before it.
+	 Example:
+	 h2
+	 .h2
+	 #h2
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+	 The differnece between a class and an id is that classes may be used on multiple elements as many times as needed per page, while id's are used to style ONE specific element.
+	 A class can be used for multiple differnt images in multiple differnt sections. 
+	 An id can be used to style one specific element in a section with multiples of the same element.
+
+    20. How do we select classes in CSS?
+	 You can select a class in CSS by writing the class name with a dot before it. (Example) .class
+
+    21. How do we select a p element with a single class of “human””?
+	 You would select the class of human by writing the class name with a dot before it. (Example) .human
+
+    22. What is a parent child selector? When would this be useful?
+	 The parent  child selector selects all elements that are a direct child of the specific element. 
+	 It would be useful when you want a more specific seletor without having to us id.
+ 
+    23. How do you select all links within a div with the class of sidebar?
+	 You write the class name sidebar with a dot in front of it, followed by the element tag a with nothing in front of it.
+	 
+    24. What is a pseudo selector?
+	 A pseudo selector is a class selector with a higher weight.
+	 It s written by writing the class selector with a colon and command following it with no spaces.
+		
+    25. What do we use the change the spacing between lines?
+	 The spacing between line can be changed using the CSS property of line height.
+	 
+
+    26. What do we use to change the spacing between letters?
+	 The spacing between letters can be changed using the CSS property letter-spacing.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	 All of the commands can be done with the CSS property text-transform.
+	 
+    28. How do I add a 1px border around my div that is dotted and black?
+	 The border can be created using the CSS property border, giving the property a number, design style and color.
+
+    29. How do I select everything on the page? 
+	 Every element on the page can be selected using the universal selector *.
+
+    30. How do I write a comment in CSS?
+	 Multiple lines comments can be made by typing /* as the open tag and */ as the close tag.
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	 The file you are in appears in the line where you commands are written.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	 By typing ls you can see the files.folders of your current folder.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	  Typing rm in git will remove a file. Removing files from you computer are permanent and will not prompt you to make sure you want to delete the file.
+	 
+    34. Why should I use version control?
+	 Version control makes it easy for multiple team members to work on the same file at once.
+ 
+    35. How often should I commit to github?
+	 You shouyld commit to github as often as you would want to save your progress.
+
+    36. What is the command we would use to push our repo up to github? 
+	 The command git push will push your repo to github throught git.
+
+    37. Walk me through Lambda's git flow. 
+	 1. The student will fork the repository to make it their own.
+	 2. The student will add their TL as a collaborator
+	 3. The student will clone the repo into git.
+	 4. The student will create a branch to work on, seperate from the master.
+	 5. The student will submit their pull request using the new branch. Using their own fork as a "base", and adding their TL as a "reviewer".
+	 6. The TL will count the project as done by merging the branch into master "STUDENT FORK".
+	
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model?
